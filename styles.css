@@ -1,0 +1,92 @@
+html {
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+  }
+  
+  #navbar {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    background-color: #111111;
+  }
+  
+  header img {
+    width: 60px;
+    height: 50px;
+    position: fixed;
+    top: 4px;
+    left: 4px;
+  }
+  
+  #navbar a {
+    background-color: #AAAAAA;
+    color: #111111;
+    border: 1px solid #111111;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+  }
+  
+  #welcome-section {
+    position: absolute;
+    top: 75px;
+  }
+  
+  #welcome-section h1 {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    background-color: #AAAAAA;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #welcome-section p {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #AAAAAA;
+  }
+  
+  #welcome-section h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #AAAAAA;
+  }
+  
+  #projects {
+    position: absolute;
+    top: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .project-tile, #profile-link {
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    margin: 15px;
+  }
+  
+  @media () {
+    
+  }
